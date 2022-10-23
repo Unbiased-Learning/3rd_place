@@ -10,54 +10,70 @@
 </head>
 
 <body>
-    <header>
-        <h1>Profile</h1>
+    <header id="header" class="wrapper">
+        <h1 class="site-title">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="Profile">
+            </a>
+        </h1>
         <nav>
             <ul>
-                <li>About</li>
-                <li>Bycycle</li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#bicycle">Bicycle</a>
+                </li>
             </ul>
-
         </nav>
     </header>
+
     <main>
-        <div class="main-visual">
-            <img src="img/mainvisual.jpg" alt="">
+        <div id="mainvisual">
+            <img src="img/mainvisual.jpg" alt="テキストテキストテキスト">
         </div>
-        <section class="about">
-            <h2>About</h2>
-            <div class="about-container">
-                <img src="img/about.jpg" alt="">
-                <div class="about-inner">
-                    <h3>HAJIME TAKAYAMA</h3>
-                    <p>hello world</p>
+
+        <section id="about" class="wrapper">
+            <h2 class="section-title">About</h2>
+            <div class="content">
+                <img src="img/about.jpg" alt="テキストテキストテキスト">
+                <div class="text">
+                    <h3 class="content-title">KAKERU MIYAICHI</h3>
+                    <p>
+                        テキストテキストテキストテキストテキストテキストテキスト<br>
+                        テキストテキストテキストテキストテキストテキストテキスト<br>
+                        テキストテキストテキストテキストテキストテキストテキスト
+                    </p>
                 </div>
             </div>
         </section>
-        <section class="bycycle">
-            <h2>Bycycle</h2>
-            <div class="bicycle-container">
-                <ul>
-                    <li>
-                        <img src="img/bicycle1.jpg" alt="">
-                        <h3>title</h3>
-                        <p>hogehogehoge</p>
-                    </li>
-                    <li>
-                        <img src="img/bicycle2.jpg" alt="">
-                        <h3>title</h3>
-                        <p>hogehogehoge</p>
-                    </li>
-                    <li>
-                        <img src="img/bicycle3.jpg" alt="">
-                        <h3>title</h3>
-                        <p>hogehogehoge</p>
-                    </li>
-                </ul>
-            </div>
+
+        <section id="bicycle" class="wrapper">
+            <h2 class="section-title">Bicycle</h2>
+            <ul>
+                <li>
+                    <img src="img/bicycle1.jpg" alt="テキストテキストテキスト">
+                    <h3 class="content-title">タイトルタイトル</h3>
+                    <p>テキストテキストテキスト</p>
+                </li>
+                <li>
+                    <img src="img/bicycle2.jpg" alt="テキストテキストテキスト">
+                    <h3 class="content-title">タイトルタイトル</h3>
+                    <p>テキストテキストテキスト</p>
+                </li>
+                <li>
+                    <img src="img/bicycle3.jpg" alt="テキストテキストテキスト">
+                    <h3 class="content-title">タイトルタイトル</h3>
+                    <p>テキストテキストテキスト</p>
+                </li>
+            </ul>
         </section>
     </main>
-    <footer></footer>
+
+    <footer id="footer">
+        <p>© 2020 Profile</p>
+    </footer>
+
 </body>
 
 </html>
