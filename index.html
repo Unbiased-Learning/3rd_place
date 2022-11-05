@@ -1,78 +1,82 @@
 <!DOCTYPE html>
-
-<style>
-.bbb li {
-    
-}
-</style>
-
-<html lang="ja">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bicycle</title>
+    <title>Profile</title>
+    <link rel="stylesheet" href="./style.css">
+    <script></script>
 </head>
 <body>
-    <header position: fixed;>
-        <h1>Profile</h1>
-        <nav>
-            <ul class="bbb">
-                <li>about</li>
-                <li>Bicycle</li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+    <!-- headerここから -->
+    <header class="header">
         <div>
-            <img src="mainvisual" alt="bicycle">
-            <section(#about)>
-                <h2 text-align: center;>
-                    <u>
-                        About
-                    </u>
-                </h2>
-                <div>
-                    <img src="bicycle2" alt="緑帽子のみやいちさん"
-                    border-radius: 50px;
-                    >
-                    <h3 text-align: center;>
-                        KAKERU MIYAICHI
-                    </h3>
-                    <p text-align: center;>
-                        テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                    </p>
+            <a class="header-logo" href="./index.html">
+            <h1>
+                Profile
+            </h1>
+            </a>
+            <div class="header-site-menu">
+                <nav class="site menu">
+                    <ul>
+                        <li><a href="./About.html">
+                            About
+                        </a></li>
+                        <li><a href="./Bicycle.html">
+                            Bicycle
+                        </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- headerここまで -->
+
+
+    <!-- mainここから -->
+    <main class="main">
+        <div>
+            <img class="mainvisual"　src="img/mainvisual.jpg" alt="自転車の写真">
+        </div>
+            <section>
+                <h2><u>About</u></h2>
+                <div class="miyazawa">
+                    <img class="circle"　src="img/about.jpg" alt="Miyazawa kakeru">
+                    <h2>KAKERU MIYAZAWA</h2>
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
                 </div>
             </section>
-        </div>
-    <div>
-        <section(#bicycle)>
-<h4 text-align: center;>
-    <u>
-Bicycle
-    </u>
-</h4>
-<ul>
-    <li>
-        <img src="" alt="">
-    <h3>タイトル</h3>
-    <p>テキストテキスト</p>
-    </li>
-    <li>
-        <img src="" alt="">
-        <h3>タイトル</h3>
-        <p>テキストテキスト</p>
-    </li>
-    <li>
-        <img src="" alt="">
-        <h3>タイトル</h3>
-        <p>テキストテキスト</p>
-    </li>
-</ul>
-
-        </section>
-    </div>
+            <section>
+                <h2><u>Bicycle</u></h2>
+                <ul>
+                    <li>
+                        <img src="img/bicycle1.jpg" alt="自転車の写真">
+                        <h3>タイトルタイトル</h3>
+                        <p>テキストテキスト</p>
+                    </li>
+                    <li>
+                        <img src="img/bicycle2.jpg" alt="自転車の写真">
+                        <h3>タイトルタイトル</h3>
+                        <p>テキストテキスト</p>
+                    </li>
+                    <li>
+                        <img src="img/bicycle3.jpg" alt="自転車の写真">
+                        <h3>タイトルタイトル</h3>
+                        <p>テキストテキスト</p>
+                    </li>
+                </ul>
+            </section>
     </main>
-    
+    <!-- mainここまで -->
+
+
+    <!-- footerここから -->
+    <footer class="footer">
+        <p class="copyright"><small>
+            &copy;2022 Profile
+        </small></p>
+    </footer>
+    <!-- footerここまで -->
 </body>
 </html>
