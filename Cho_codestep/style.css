@@ -1,0 +1,67 @@
+header {
+    width: 960px;
+    text-align: center;
+    margin:  0 auto;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+header nav {
+    font-size: 15px;
+    align-items: flex-end;
+}
+section h2{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset:0.5em;
+    padding: 10px;
+}
+section div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section div img {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    margin-right: 20px;
+}
+section ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+section ul img {
+    width: 90%;
+    object-fit: fill;
+}
+footer p {
+    text-align: center;
+    opacity: 0.8;
+    font-size: 10px;
+}
+hr {
+    width: 100px;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.blackbackgroud {
+    background-color: black;
+    color: white;
+}
+.center {
+    text-align: center;
+}
+.profile_rayout {
+    width: 150px;
+}
+.img_b {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
