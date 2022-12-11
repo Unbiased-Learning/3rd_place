@@ -1,18 +1,18 @@
 header{
 display: flex;
 justify-content: space-between;
-position: relative;
+/* position: relative; */
 }
 h1{
     color:gold;
     background-color: aliceblue;
-    position: absolute;   
+    /* position: absolute;    */
    }
 nav{
-    position: absolute;
+    /* position: absolute; */
 }
-#mainvisual{
-    object-fit: contain;
+.mainvisual > img {
+    width:100%;
 }
 h2{
 text-decoration: underline;
@@ -22,5 +22,5 @@ text-decoration: underline;
 display:inline-block;
 }
 html{
-    background-color: blue
+    background-color:#fdfdfd;
 }
