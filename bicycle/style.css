@@ -13,8 +13,15 @@ nav{
     /* position: absolute; */
     padding-left: 20px;
 }
-img {
-    /* width:100%; */
+.mainvisual > img {
+    width:100%;
+}
+.img-title{
+    display: flex;
+    flex-flow: column;
+}
+.img-title > img {
+    width: 80%;
 }
 .bicycle-imgs{
     display: flex;
