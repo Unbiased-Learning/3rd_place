@@ -1,18 +1,23 @@
 header{
 display: flex;
-justify-content: space-between;
+justify-content: space-evenly;
 /* position: relative; */
 }
 h1{
     color:gold;
     background-color: aliceblue;
+    padding-right:  20px;
     /* position: absolute;    */
    }
 nav{
     /* position: absolute; */
+    padding-left: 20px;
 }
-.mainvisual > img {
-    width:100%;
+img {
+    /* width:100%; */
+}
+.bicycle-imgs{
+    display: flex;
 }
 h2{
 text-decoration: underline;
