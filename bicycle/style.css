@@ -1,0 +1,26 @@
+header{
+display: flex;
+justify-content: space-between;
+position: relative;
+}
+h1{
+    color:gold;
+    background-color: aliceblue;
+    position: absolute;   
+   }
+nav{
+    position: absolute;
+}
+#mainvisual{
+    object-fit: contain;
+}
+h2{
+text-decoration: underline;
+}
+#bicycle{
+text-decoration: underline;
+display:inline-block;
+}
+html{
+    background-color: blue
+}
