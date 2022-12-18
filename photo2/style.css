@@ -2,3 +2,7 @@
     .inner {
       padding: 0 40px;
     }
+}
+.content{
+  display: flex;  
+}
