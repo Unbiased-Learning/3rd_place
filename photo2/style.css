@@ -6,3 +6,6 @@
 .content{
   display: flex;  
 }
+.img-detail {
+  padding: 25px;
+}
