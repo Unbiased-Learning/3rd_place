@@ -6,3 +6,9 @@
 .content{
   display: flex;  
 }
+.mainvisual > img {
+    width:100%;
+}
+.img-detail{
+  padding: 25px; 
+}
