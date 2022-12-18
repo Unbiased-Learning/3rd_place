@@ -12,3 +12,7 @@
 .img-detail{
   padding: 25px; 
 }
+#detail {
+  display: flex;
+  justify-content: center;
+}
