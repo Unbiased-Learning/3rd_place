@@ -1,0 +1,58 @@
+
+body{
+background-color:rgb(120, 161, 192);
+}
+
+img{
+max-width: 100%;
+}
+
+.container{
+margin: 0 auto;
+max-width: 1000px;
+}
+
+.innner{
+margin: 0 auto;
+max-width: 600px;
+}
+
+.section-title{
+font-size: 20px;
+margin-left: 20px;
+}
+
+#header{
+margin-top: 20px;
+}
+
+#header .site-title{
+width: 200px;
+}
+
+#mainvisual{
+margin-bottom: 40px;
+}
+
+#index{
+  background-color: rgb(55, 143, 220);
+}
+
+#detail .content .img{
+  width: 300px;
+}
+
+#detail .content dl{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+#detail .content dt{
+width:30%;
+}
+
+#detail .content dd{
+width: 70%;
+}
+
+
