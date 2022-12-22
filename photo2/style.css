@@ -1,14 +1,56 @@
+@charset "UTF-8";
+
+html{
+
+}
+
+body{
+background-color:bisque;
+}
+
+img{
+max-width: 100%;
+}
+
+.container{
+margin: 0 auto;
+max-width: 1000px;
+}
+
+.innner{
+margin: 0 auto;
+max-width: 600px;
+}
+
+.section-title{
+font-size: 20px;
+}
+
+#header{
+margin-top: 20px;
+}
+
+#header .site-title{
+width: 200px;
+}
+
+#header .site-title a{
+  
+}
+
+#mainvisual{
+margin-bottom: 40px;
+}
+
+#index{
+  background-color: aliceblue;
+}
+
+#index
+
+
 @media screen and (max-width: 1024px) {
     .inner {
       padding: 0 40px;
     }
-}
-.content{
-  display: flex;  
-}
-.mainvisual > img {
-    width:100%;
-}
-.img-detail{
-  padding: 25px; 
 }
