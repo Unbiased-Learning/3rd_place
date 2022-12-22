@@ -1,11 +1,6 @@
-@charset "UTF-8";
-
-html{
-
-}
 
 body{
-background-color:bisque;
+background-color:rgb(120, 161, 192);
 }
 
 img{
@@ -24,6 +19,7 @@ max-width: 600px;
 
 .section-title{
 font-size: 20px;
+margin-left: 20px;
 }
 
 #header{
@@ -34,23 +30,29 @@ margin-top: 20px;
 width: 200px;
 }
 
-#header .site-title a{
-  
-}
-
 #mainvisual{
 margin-bottom: 40px;
 }
 
 #index{
-  background-color: aliceblue;
+  background-color: rgb(55, 143, 220);
 }
 
-#index
-
-
-@media screen and (max-width: 1024px) {
-    .inner {
-      padding: 0 40px;
-    }
+#detail .content .img{
+  width: 300px;
 }
+
+#detail .content dl{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+#detail .content dt{
+width:30%;
+}
+
+#detail .content dd{
+width: 70%;
+}
+
+
