@@ -1,0 +1,41 @@
+html {
+    font-size: 100%;
+  }
+  body {
+    background-color: bisque;
+  }
+  img {
+    max-width: 100%;
+  }
+ 
+  ul {
+    list-style: none;
+  }
+  a {
+    color: #82416f;
+  }
+
+  #mainvisual img{
+   width: 100%; 
+  }
+.text{
+  text-align: center;
+}
+
+.flex{
+  display: flex;
+  object-fit: cover;
+
+}
+.flex li{
+  width: calc(100%/3);
+  padding:0 10px ;
+}
+ 
+.sns{
+  display: flex;
+}
+
+p{
+  text-align: center;
+}
