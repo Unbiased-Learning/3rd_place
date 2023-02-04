@@ -25,7 +25,6 @@ html {
 .flex{
   display: flex;
   object-fit: cover;
-
 }
 .flex li{
   width: calc(100%/3);
@@ -34,9 +33,14 @@ html {
  
 .sns{
   display: flex;
+  justify-content: center;
+}
+
+.sns li{
+  padding:0 10px
 }
 
 p{
   text-align: center;
-  font-size: 1px;
 }
+
